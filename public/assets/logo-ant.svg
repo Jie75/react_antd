@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head data-suburl="">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	
+	<meta name="description" content="慕课网Git（git.imooc.com）是专为开发者提供高效、便捷服务的的代码托管平台，除了提供最基础的Git代码托管之外，还提供代码在线查看、Issue、Pull Requests、Wiki、代码提交历史、创建分支等方便项目管理、协作开发的功能。" />
+	<meta name="keywords" content="慕课网Git,代码托管,Git,Git代码托管,实战课源码">
+	<meta name="referrer" content="no-referrer-when-downgrade" />
+	<meta name="_csrf" content="DFqll2qzauohWt8tFm5kONllK_k6MTU0NTU3NDQyMjAxOTI4MTQ2Mw==" />
+	<meta name="_suburl" content="" />
+	
+	
+	<meta property="og:url" content="https://git.imooc.com/" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="慕课网Git_代码托管平台_慕课网">
+	<meta property="og:description" content="慕课网Git（git.imooc.com）是专为开发者提供高效、便捷服务的的代码托管平台，除了提供最基础的Git代码托管之外，还提供代码在线查看、Issue、Pull Requests、Wiki、代码提交历史、创建分支等方便项目管理、协作开发的功能。">
+	<meta property="og:image" content="https://git.imooc.com/img/favicon.ico" />
+	<meta property="og:site_name" content="慕课网Git">
+
+	<link rel="shortcut icon" href="/img/favicon.ico" />
+	<title>慕课网Git_代码托管平台_慕课网</title>
+	<meta name="theme-color" content="#ff5343">
+
+<script>
+	var OP_CONFIG = {
+		isLogin: 0
+	};
+</script>
+
+	<script type="text/javascript" src="/js/libs/requirejs/2.1.20/require.js"></script>
+	<script src="/js/jquery-1.11.3.min.js"></script>
+	<script>
+		requirejs.config({
+			urlArgs: "6fc9e85aa88133794d3434ea74aa557a",
+			baseUrl: "",
+			skipDataMain: true,
+			waitSeconds: 0,
+			paths: {
+				lib: 'js/libs',
+				autocomplete:'js/libs/util/autocomplete.js',
+				validate:'js/libs/util/validate.js',
+				placeholder:'js/libs/util/placeholder.js',
+				modalbutton:'js/libs/util/modal.button.js',
+			},
+			shim: {
+				'swfobject': {
+					exports: 'swfobject'
+				}
+			}
+		});
+	</script>
+	<script src="/passport/static/scripts/ssologin.js?v=2.0"></script>
+	<script src="/js/libs/moco/v1.0/dist/js/moco.min.js?v=1"></script>
+
+	<link rel="stylesheet" href="/assets/font-imooc/css/font-less.css">
+	<link rel="stylesheet" href="/assets/font-imv2/css/style.css">
+	<link rel="stylesheet" href="/js/libs/moco/v1.0/dist/css/moco.min.css?v=1">
+
+	
+	<link rel="stylesheet" href="/css/home_new.css?v=6fc9e85aa88133794d3434ea74aa557a">
+	<link rel="stylesheet" href="/css/poplogin.css?v=6fc9e85aa88133794d3434ea74aa557a">
+	
+
+
+<script type = "text/javascript">
+	(function() {
+		window.zhuge = window.zhuge || [];
+		window.zhuge.methods = "_init identify track getDid getSid getKey setSuperProperty setUserProperties setWxProperties setPlatform".split(" ");
+		window.zhuge.factory = function(b) {
+		return function() {
+			var a = Array.prototype.slice.call(arguments);
+			a.unshift(b);
+			window.zhuge.push(a);
+			return window.zhuge;
+		}
+		};
+		for (var i = 0; i < window.zhuge.methods.length; i++) {
+			var key = window.zhuge.methods[i];
+			window.zhuge[key] = window.zhuge.factory(key);
+		}
+		window.zhuge.load = function(b, x) {
+			if (!document.getElementById("zhuge-js")) {
+				var a = document.createElement("script");
+				var verDate = new Date();
+				var verStr = verDate.getFullYear().toString() + verDate.getMonth().toString() + verDate.getDate().toString();
+
+				a.type = "text/javascript";
+				a.id = "zhuge-js";
+				a.async = !0;
+				a.src = (location.protocol == 'http:' ? "http://sdk.zhugeio.com/zhuge.min.js?v=": 'https://zgsdk.zhugeio.com/zhuge.min.js?v=') + verStr;
+				a.onerror = function() {
+				window.zhuge.identify = window.zhuge.track = function(ename, props, callback) {
+					if(callback && Object.prototype.toString.call(callback) === '[object Function]') {
+					callback();
+					} else if (Object.prototype.toString.call(props) === '[object Function]') {
+					props();
+					}
+				};
+				};
+				var c = document.getElementsByTagName("script")[0];
+				c.parentNode.insertBefore(a, c);
+
+				window.zhuge._init(b, x)
+			}
+		};
+		window.zhuge.load('f375fe2f71e542a4b890d9a620f9fb32', {
+			superProperty: {
+				'应用名称': '诸葛io'
+			},
+			debug: true,
+			adTrack: false,
+			autoTrack: false,
+			singlePage: false
+		});
+	})();
+</script>
+
+	
+
+
+</head>
+<body>
+	<div class="full height">
+		<noscript>Please enable JavaScript in your browser!</noscript>
+		<div id="new_header" class="special-header">
+			<div class="page-container new-header clearfix" id="nav">
+				<ul class="nav-item">
+					<li><a href="//www.imooc.com" class="active" target="_self">慕课网首页</a></li>
+					<li><a href="//www.imooc.com/course/list" target="_self">免费课程</a></li>           
+					<li><a href="//coding.imooc.com" target="_self">实战课程</a></li>
+					<li><a href="//class.imooc.com" class="" target="_self">就业班</a></li>
+					<li><a href="//www.imooc.com/wenda" target="_self">猿问</a></li>
+					<li><a href="//www.imooc.com/article" target="_self">手记</a></li>
+					<li><a href="//job.imooc.com" target="_self">猿聘<i class="icn-new"></i></a></li>
+				</ul>
+				<div class="header-right clearfix">
+					
+					<div class="app-download" id="js-app-load">
+						<a href="//www.imooc.com/mobile/app" target="_blank">下载APP</a>
+						<div class="app-load-box clearfix js-load-box">
+							
+							<div class="mobile-load-box">
+								<h4>慕课网APP - 随时随地学编程</h4>
+								<img src="//www.imooc.com/static/img/common/appload.png" class="l">
+								<div class="r">
+									<a class="app-load-btn" href="https://itunes.apple.com/cn/app/mu-ke-wang/id722179140?mt=8" target="_blank"><i class="icon-apple"></i>App Store下载</a>
+									<a class="app-load-btn" href="//www.imooc.com/mobile/mukewang.apk" target="_blank"><i class="icon-android"></i>Android下载</a>
+									<p>扫描下载慕课网APP</p>
+								</div> 
+							</div>
+						</div>
+					</div>
+					<div class="shop-cart" id="shop-cart">
+						<a href="//order.imooc.com/pay/cart" class="shop-cart-icon" target="_blank">
+							<span class="imv2-cart js-endcart"></span><span>购物车</span><span class="shopping_icon js-cart-num" data-ordernum="0" data-cartnum="0" style="display: none">0</span>
+						</a>
+						<div class="my-cart" id="js-my-cart"></div>
+					</div>
+								<div id="login-area">
+						<ul class="header-unlogin clearfix">
+							<li class="header-signin">
+								<a href="//www.imooc.com/user/newlogin" id="js-signin-btn">登录</a> / <a href="//www.imooc.com/user/newsignup" id="js-signup-btn">注册</a>
+							</li>             
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+<div class="home">
+	<div class="top-wrapper">
+		<div class="inner">
+			<h2 class="title"><strong>“</strong>专为开发者提供高效、便捷服务的的代码托管平台<strong>”</strong></h2>
+			<p class="description">慕课网Git（git.imooc.com）提供了高性能远端Git仓库，方便开发者随时随地参与项目，无论是个人还是团队，都可使用慕课网Git实现协作开发、项目管理</p>
+			<a href="javascript:void(0);" class="btn-info js-start">立即体验</a>
+		</div>
+	</div>
+	<div class="bottom-wrapper">
+		<div class="inner">
+			<h2>全方位项目管理工具支持，协同开发更高效</h2>
+			<ul class="section_1 clearfix">
+				<li>
+					<span class="icon_1"></span>
+					<h5>代码仓库</h5>
+					<p>高性能远端 Git 仓库<br>提供安全稳定的代码存储环境</p>
+				</li>
+				<li>
+					<span class="icon_2"></span>
+					<h5>代码仓库</h5>
+					<p>便捷的分支管理、保护功能</p>
+				</li>
+				<li>
+					<span class="icon_3"></span>
+					<h5>代码仓库</h5>
+					<p>清晰的代码提交历史<br>分列视图代码逐行对比体验</p>
+				</li>
+				<li>
+					<span class="icon_4"></span>
+					<h5>代码仓库</h5>
+					<p>完善的任务管理、问题跟踪<br>合并请求处理过程，仓库协作者<br>协同开发</p>
+				</li>
+				<li>
+					<span class="icon_5"></span>
+					<h5>代码仓库</h5>
+					<p>支持多种格式在线预览<br>仓库文件、任务及版本发布均可<br>上传附件</p>
+				</li>
+				<li>
+					<span class="icon_6"></span>
+					<h5>代码仓库</h5>
+					<p>支持markdown语法<br>项目文档记录，让项目成员更好<br>地协作</p>
+				</li>
+			</ul>
+			<div class="section_2 clearfix">
+				<h2>良好支持团队/组织协作，灵活支撑多种使用场景</h2>
+				<div class="box l">
+					<h3>聚合组织动态</h3>
+					<p>成员动态一目了然，清晰掌握组织活动</p>
+				</div>
+				<div class="box r">
+					<h3>组织团队管理</h3>
+					<p>明确团队权限划分，更好地进行责任分工</p>
+				</div>
+			</div>
+			<div class="section_3">
+				<span class="icon_qq imv2-qq"></span>
+				<p class="qq_num">官方QQ群：705099824</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+	</div>
+	
+	<div id="J_GotoTop" class="elevator">
+		<a href="//www.imooc.com/user/feedback" class="elevator-msg" target="_blank">
+			<i class="imv2-feedback"></i>
+			<span class="">意见反馈</span>
+		</a>
+		<a href="//www.imooc.com/help/cate/27" class="elevator-faq" target="_blank">
+			<i class="imv2-help"></i>
+			<span class="">帮助中心</span>
+		</a>
+		
+		<a href="javascript:void(0)" class="elevator-weixin no-goto" id="js-elevator-weixin" >
+			<i class="imv2-weixigzh"></i>
+			<span class="">官方微信</span>
+			<div class="elevator-weixin-box"></div>
+		</a>
+		<a href="javascript:void(0)" class="elevator-top no-goto" style="display:none" id="backTop">
+			<i class="imv2-arrow2_u"></i>
+			<span class="">返回顶部</span>
+		</a>
+	</div>
+	<div id="footer">
+		<div class="waper">
+			<div class="footerwaper clearfix">
+				<div class="followus r">
+					<a class="followus-weixin" href="javascript:;" target="_blank" title="微信">
+						<div class="flw-weixin-box"></div>
+					</a>
+					<a class="followus-weibo" href="http://weibo.com/u/3306361973" target="_blank" title="新浪微博"></a>
+					<a class="followus-qzone" href="http://user.qzone.qq.com/1059809142/" target="_blank" title="QQ空间"></a>
+				</div>
+				<div class="footer_intro l">
+					<div class="footer_link">
+						<ul>
+							<li><a href="//www.imooc.com/" target="_blank">网站首页</a></li>
+							<li><a href="//www.imooc.com/index/companytrain" target="_blank" title="企业合作">企业合作</a></li>
+							<li><a href="//www.imooc.com/about/job" target="_blank">人才招聘</a></li>
+							<li> <a href="//www.imooc.com/about/contact" target="_blank">联系我们</a></li>
+							<li> <a href="//www.imooc.com/about/recruit" target="_blank">讲师招募</a></li>
+							<li> <a href="//www.imooc.com/help/cate/19" target="_blank">帮助中心</a></li>
+							<li> <a href="//www.imooc.com/user/feedback?coding" target="_blank">意见反馈</a></li>
+							<li><a href="http://daxue.imooc.com/" target="_blank">慕课大学</a></li>
+							<li> <a href="//www.imooc.com/about/friendly" target="_blank">友情链接</a></li>
+							
+						</ul>
+					</div>
+					<p>Copyright © 2018 imooc.com All Rights Reserved | 京ICP备 12003892号-11</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script>
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?f0cfcccd7b1393990c78efdeebff3968";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+<div style="display: none;">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?84d74dc9bf9efbc24efce88f71f831cb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+(function() {
+	var stertBtn = document.getElementsByClassName('js-start')[0];
+	if(stertBtn) {
+		stertBtn.addEventListener('click', function() {
+			document.getElementById('js-signin-btn').click();
+		});
+	}
+})()
+</script>
+<script src="https://s22.cnzz.com/z_stat.php?id=1274317729&web_id=1274317729" language="JavaScript"></script>
+
+<script src="/js/home/common.js?v=6fc9e85aa88133794d3434ea74aa557a"></script>
+</div>
+</body>
+</html>
+
